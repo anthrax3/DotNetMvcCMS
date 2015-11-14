@@ -77,11 +77,101 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Content\Home\css\animate.css" />
+    <Content Include="Content\Home\css\bootstrap.min.css" />
+    <Content Include="Content\Home\css\font-awesome.min.css" />
+    <Content Include="Content\Home\css\main.css" />
+    <Content Include="Content\Home\css\prettyPhoto.css" />
+    <Content Include="Content\Home\css\price-range.css" />
+    <Content Include="Content\Home\css\responsive.css" />
+    <Content Include="Content\Home\fonts\fontawesome-webfont.svg" />
+    <Content Include="Content\Home\fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="Content\Home\images\404\404.png" />
+    <Content Include="Content\Home\images\blog\blog-one.jpg" />
+    <Content Include="Content\Home\images\blog\blog-three.jpg" />
+    <Content Include="Content\Home\images\blog\blog-two.jpg" />
+    <Content Include="Content\Home\images\blog\man-four.jpg" />
+    <Content Include="Content\Home\images\blog\man-one.jpg" />
+    <Content Include="Content\Home\images\blog\man-three.jpg" />
+    <Content Include="Content\Home\images\blog\man-two.jpg" />
+    <Content Include="Content\Home\images\blog\socials.png" />
+    <Content Include="Content\Home\images\cart\one.png" />
+    <Content Include="Content\Home\images\cart\three.png" />
+    <Content Include="Content\Home\images\cart\two.png" />
+    <Content Include="Content\Home\images\home\bg_border.png" />
+    <Content Include="Content\Home\images\home\gallery1.jpg" />
+    <Content Include="Content\Home\images\home\gallery2.jpg" />
+    <Content Include="Content\Home\images\home\gallery3.jpg" />
+    <Content Include="Content\Home\images\home\gallery4.jpg" />
+    <Content Include="Content\Home\images\home\girl1.jpg" />
+    <Content Include="Content\Home\images\home\girl2.jpg" />
+    <Content Include="Content\Home\images\home\girl3.jpg" />
+    <Content Include="Content\Home\images\home\iframe1.png" />
+    <Content Include="Content\Home\images\home\iframe2.png" />
+    <Content Include="Content\Home\images\home\iframe3.png" />
+    <Content Include="Content\Home\images\home\iframe4.png" />
+    <Content Include="Content\Home\images\home\logo.png" />
+    <Content Include="Content\Home\images\home\map.png" />
+    <Content Include="Content\Home\images\home\new.png" />
+    <Content Include="Content\Home\images\home\partner1.png" />
+    <Content Include="Content\Home\images\home\partner2.png" />
+    <Content Include="Content\Home\images\home\partner3.png" />
+    <Content Include="Content\Home\images\home\partner4.png" />
+    <Content Include="Content\Home\images\home\pricing.png" />
+    <Content Include="Content\Home\images\home\product1.jpg" />
+    <Content Include="Content\Home\images\home\product2.jpg" />
+    <Content Include="Content\Home\images\home\product3.jpg" />
+    <Content Include="Content\Home\images\home\product4.jpg" />
+    <Content Include="Content\Home\images\home\product5.jpg" />
+    <Content Include="Content\Home\images\home\product6.jpg" />
+    <Content Include="Content\Home\images\home\recommend1.jpg" />
+    <Content Include="Content\Home\images\home\recommend2.jpg" />
+    <Content Include="Content\Home\images\home\recommend3.jpg" />
+    <Content Include="Content\Home\images\home\sale.png" />
+    <Content Include="Content\Home\images\home\searchicon.png" />
+    <Content Include="Content\Home\images\home\shipping.jpg" />
+    <Content Include="Content\Home\images\product-details\1.jpg" />
+    <Content Include="Content\Home\images\product-details\new.jpg" />
+    <Content Include="Content\Home\images\product-details\rating.png" />
+    <Content Include="Content\Home\images\product-details\share.png" />
+    <Content Include="Content\Home\images\product-details\similar1.jpg" />
+    <Content Include="Content\Home\images\product-details\similar2.jpg" />
+    <Content Include="Content\Home\images\product-details\similar3.jpg" />
+    <Content Include="Content\Home\images\shop\advertisement.jpg" />
+    <Content Include="Content\Home\images\shop\product10.jpg" />
+    <Content Include="Content\Home\images\shop\product11.jpg" />
+    <Content Include="Content\Home\images\shop\product12.jpg" />
+    <Content Include="Content\Home\images\shop\product7.jpg" />
+    <Content Include="Content\Home\images\shop\product8.jpg" />
+    <Content Include="Content\Home\images\shop\product9.jpg" />
+    <Content Include="Content\Home\js\bootstrap.min.js" />
+    <Content Include="Content\Home\js\contact.js" />
+    <Content Include="Content\Home\js\gmaps.js" />
+    <Content Include="Content\Home\js\html5shiv.js" />
+    <Content Include="Content\Home\js\jquery.js" />
+    <Content Include="Content\Home\js\jquery.prettyPhoto.js" />
+    <Content Include="Content\Home\js\jquery.scrollUp.min.js" />
+    <Content Include="Content\Home\js\main.js" />
+    <Content Include="Content\Home\js\price-range.js" />
     <Content Include="Global.asax" />
+    <Content Include="Content\Home\fonts\fontawesome-webfont.woff" />
+    <Content Include="Content\Home\fonts\FontAwesome.otf" />
+    <Content Include="Content\Home\fonts\glyphicons-halflings-regular.woff" />
+    <None Include="Scripts\jquery-1.10.2.intellisense.js" />
+    <Content Include="Scripts\jquery-1.10.2.js" />
+    <Content Include="Scripts\jquery-1.10.2.min.js" />
+    <None Include="Scripts\jquery.validate-vsdoc.js" />
+    <Content Include="Scripts\jquery.validate.js" />
+    <Content Include="Scripts\jquery.validate.min.js" />
+    <Content Include="Scripts\jquery.validate.unobtrusive.js" />
+    <Content Include="Scripts\jquery.validate.unobtrusive.min.js" />
     <Content Include="Web.config" />
+    <Content Include="Scripts\jquery-1.10.2.min.map" />
+    <Content Include="Views\Home\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -90,6 +180,7 @@
   <ItemGroup>
     <Content Include="Views\web.config" />
     <Content Include="packages.config" />
+    <Content Include="Views\Shared\Home\Layout.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -99,7 +190,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Controllers\" />
     <Folder Include="Models\" />
   </ItemGroup>
   <PropertyGroup>
