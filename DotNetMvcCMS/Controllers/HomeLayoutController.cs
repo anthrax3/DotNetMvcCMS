@@ -58,6 +58,10 @@ namespace DotNetMvcCMS.Controllers
         }
         #endregion
 
+        public ActionResult ItemDetail()
+        {
+            return View();
+        }
 
         public ActionResult RightBoxItemsWithCategoryTab()
         {

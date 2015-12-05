@@ -18,6 +18,7 @@
             </div>
             <!--End Left Side-->
             <div class="col-sm-9 padding-right">
+                @{Html.RenderAction("ItemDetail", "HomeLayout");}
                 @{Html.RenderAction("RightBoxItems", "HomeLayout");}
                 @{Html.RenderAction("RightBoxItemsWithSlider", "HomeLayout");}
                 @{Html.RenderAction("RightBoxItemsWithCategoryTab", "HomeLayout");}
