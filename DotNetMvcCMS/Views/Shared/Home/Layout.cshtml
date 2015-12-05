@@ -16,6 +16,7 @@
     <div>
         @{Html.RenderAction("Header", "HomeLayout");}
         @RenderBody()
+        @{Html.RenderAction("Footer", "HomeLayout");}
     </div>
     <script src="~/Content/Home/js/jquery.js"></script>
     <script src="~/Content/Home/js/bootstrap.min.js"></script>

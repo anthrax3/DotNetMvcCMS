@@ -183,6 +183,16 @@
     <Content Include="packages.config" />
     <Content Include="Views\Shared\Home\Layout.cshtml" />
     <Content Include="Views\HomeLayout\Header.cshtml" />
+    <Content Include="Views\HomeLayout\Slider.cshtml" />
+    <Content Include="Views\HomeLayout\LeftSideCategory.cshtml" />
+    <Content Include="Views\HomeLayout\RightContent.cshtml" />
+    <Content Include="Views\HomeLayout\RightBoxItems.cshtml" />
+    <Content Include="Views\HomeLayout\RightBoxItemsWithSlider.cshtml" />
+    <Content Include="Views\HomeLayout\RightBoxItemsWithCategoryTab.cshtml" />
+    <Content Include="Views\HomeLayout\Footer.cshtml" />
+    <Content Include="Views\HomeLayout\LeftSideBrand.cshtml" />
+    <Content Include="Views\HomeLayout\LeftSidePrice.cshtml" />
+    <Content Include="Views\HomeLayout\LeftSideImage.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

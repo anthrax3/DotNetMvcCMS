@@ -1,8 +1,28 @@
-﻿
-@{
+﻿@{
     ViewBag.Title = "Index";
     Layout = "~/Views/Shared/Home/Layout.cshtml";
 }
 
-<h2>Index</h2>
-
+@{Html.RenderAction("Slider", "HomeLayout");}
+<section>
+    <div class="container">
+        <div class="row">
+            <!--Start Left Side-->
+            <div class="col-sm-3">
+                <div class="left-sidebar">
+                    @{Html.RenderAction("LeftSideCategory", "HomeLayout");}
+                    @{Html.RenderAction("LeftSideBrand", "HomeLayout");}
+                    @{Html.RenderAction("LeftSidePrice", "HomeLayout");}
+                    @{Html.RenderAction("LeftSideImage", "HomeLayout");}
+                </div>
+            </div>
+            <!--End Left Side-->
+            <div class="col-sm-9 padding-right">
+                @{Html.RenderAction("RightBoxItems", "HomeLayout");}
+                @{Html.RenderAction("RightBoxItemsWithSlider", "HomeLayout");}
+                @{Html.RenderAction("RightBoxItemsWithCategoryTab", "HomeLayout");}
+            </div>
+               
+            </div>
+    </div>
+</section>
