@@ -430,6 +430,7 @@
   <ItemGroup>
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Controllers\AdminController.cs" />
+    <Compile Include="Controllers\AdminLayoutController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\HomeLayoutController.cs" />
     <Compile Include="Controllers\ItemController.cs" />
@@ -456,6 +457,11 @@
     <Content Include="Views\HomeLayout\ItemDetail.cshtml" />
     <Content Include="Views\Shared\Admin\Layout.cshtml" />
     <Content Include="Views\Admin\Index.cshtml" />
+    <Content Include="Views\AdminLayout\Menu.cshtml" />
+    <Content Include="Views\AdminLayout\MainContent.cshtml" />
+    <Content Include="Views\AdminLayout\Setting.cshtml" />
+    <Content Include="Views\AdminLayout\TopBar.cshtml" />
+    <Content Include="Views\AdminLayout\BreadScrumbs.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
